@@ -1,0 +1,13 @@
+codepen
+
+1 git add <fichier>
+
+    git status
+
+    2 git commit -m "message"
+
+    plus= git add -u (fichier déja existant)
+
+    git add * ou git add .
+
+    .gitignore
