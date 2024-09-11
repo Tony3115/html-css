@@ -1,8 +1,7 @@
-@media (max-width: 990px) {}
-
-@media (min-width: 991px) and (max-width: 1199px) {}
-
-@media (min-width: 1200px) {}
+* {
+    margin-left: 0px;
+    box-sizing: border-box;
+}
 
 .body {
     display: flex;
@@ -11,8 +10,6 @@
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
-
-
 
 }
 
@@ -25,7 +22,19 @@
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
-    height: 530%;
+    height: auto;
+}
+
+.exbody {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    width: 50%;
 }
 
 .entete {
@@ -42,11 +51,7 @@
 
 }
 
-.img {
-    width: 50%;
-    height: auto;
-    display: inline-block;
-}
+
 
 .bord {
     border: 1px solid #78C5E5;
@@ -55,4 +60,39 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding: 20px 40px;
+    margin-bottom: 70px;
 }
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+.titre {
+
+    border-bottom: 1px dotted black;
+    font-weight: bold;
+    margin: 35px;
+}
+
+.ingredient {
+
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+
+/*Mobile*/
+@media (max-width: 480px) {}
+
+
+
+/*tablet*/
+@media (min-width: 481px) and (max-width: 768px) {}
