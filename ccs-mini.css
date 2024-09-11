@@ -1,0 +1,55 @@
+.body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+
+}
+
+.inbody {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+
+}
+
+.entete {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #78C5E5;
+    display: flex;
+    justify-content: center;
+    line-height: 0%;
+
+
+}
+
+.center {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    line-height: 0%;
+
+}
+
+.img {
+    width: 50%;
+    height: auto;
+}
+
+.bord {
+    border: 1px solid #78C5E5;
+    background-color: #78C5E5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px 40px;
+
+}
