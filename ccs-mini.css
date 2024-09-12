@@ -3,6 +3,19 @@
     box-sizing: border-box;
 }
 
+.logo {
+
+    color: white;
+    font-family: "Cinzel", serif;
+    ;
+}
+
+.sub {
+
+    font-family: "Tangerine", cursive;
+
+}
+
 .body {
     display: flex;
     flex-direction: row;
@@ -104,6 +117,59 @@
     align-content: stretch;
 }
 
+
+.footer {
+    background-color: black;
+    width: 100%;
+
+}
+
+.Cavertahead {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.Caverta {
+
+    width: 25%;
+    margin-left: 100px;
+}
+
+.foot {
+
+    color: gray;
+    font-weight: 100px;
+}
+
+.tete {
+
+    color: white;
+}
+
+.fin {
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.social {
+
+    color: gray;
+}
+
+.image {
+
+    display: inline-block;
+}
 
 
 
