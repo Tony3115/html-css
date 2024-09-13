@@ -162,6 +162,7 @@ nav ul li a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    justify-content: center;
     padding: 20px 40px;
     width: 200px;
     margin-bottom: 120px;
@@ -180,8 +181,8 @@ nav ul li a {
     justify-content: space-between;
     align-items: flex-start;
     align-content: stretch;
-
 }
+
 
 .titre {
     font-weight: bold;
