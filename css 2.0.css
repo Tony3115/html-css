@@ -220,6 +220,10 @@ nav ul li a {
     margin-bottom: 100px;
 }
 
+.img2 {
+    margin-top: 180px;
+}
+
 /*Mobile*/
 @media (max-width: 576px) {}
 
