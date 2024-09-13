@@ -197,8 +197,26 @@ nav ul li a {
     border-bottom: 1px dotted black;
 }
 
-.img {
 
+.number {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+
+.material-symbols-outlined {
+
+    color: #78C5E5;
+    font-size: 4em;
+    margin-top: 100px;
+
+}
+
+.img {
     margin-bottom: 100px;
 }
 
