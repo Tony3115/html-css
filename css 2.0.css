@@ -237,7 +237,7 @@ nav ul li a {
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .foot {
@@ -245,7 +245,6 @@ nav ul li a {
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: red 3px solid;
     justify-content: space-around;
 }
 
@@ -263,7 +262,6 @@ nav ul li a {
 .tete {
 
     color: white;
-    border: green solid 3px;
     text-align: justify;
 }
 
@@ -272,10 +270,27 @@ nav ul li a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
     align-items: stretch;
     align-content: stretch;
+    margin-top: 40px;
 }
+
+.social2 {
+    color: gray;
+
+    margin-left: 1200px;
+
+}
+
+.design {
+
+    margin-left: 40px;
+}
+
+.p {
+    color: gray;
+}
+
 
 /*Mobile*/
 @media (max-width: 576px) {}
