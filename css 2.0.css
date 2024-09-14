@@ -113,6 +113,7 @@ nav ul li a {
     text-align: center;
     padding: 50px;
     margin-bottom: 0px;
+    font-size: xx-large;
 }
 
 .all {
@@ -232,7 +233,7 @@ nav ul li a {
 
     background-color: black;
     width: 100%;
-    bottom: -3750px;
+    bottom: -3300px;
     left: 0;
     position: absolute;
     display: flex;
@@ -290,6 +291,11 @@ nav ul li a {
 .p {
     color: gray;
 }
+
+.image {
+    width: 100%;
+}
+
 
 
 /*Mobile*/
