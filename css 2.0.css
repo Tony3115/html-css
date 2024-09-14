@@ -16,6 +16,11 @@
     justify-content: center;
 }
 
+.heading .material-symbols-outlined {
+
+    display: none;
+}
+
 
 .logo {
 
@@ -129,7 +134,14 @@ nav ul li a {
 
 }
 
-.body {
+.body1 {
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+
+}
+
+.body2 {
     width: 50%;
     height: 100%;
     margin: 10px;
@@ -233,7 +245,7 @@ nav ul li a {
 
     background-color: black;
     width: 100%;
-    bottom: -3300px;
+    bottom: -3450px;
     left: 0;
     position: absolute;
     display: flex;
@@ -305,4 +317,28 @@ nav ul li a {
 
 
 /*tablet*/
-@media (min-width: 577px) and (max-width: 768px) {}
+@media (max-width: 992px) {
+
+    .header {
+        display: none;
+
+    }
+
+    .heading .material-symbols-outlined {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+    }
+
+
+    .body1 {
+
+        width: auto;
+    }
+
+    .body2 {
+        width: auto;
+    }
+
+
+}
