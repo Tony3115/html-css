@@ -134,19 +134,15 @@ nav ul li a {
 
 }
 
-.body1 {
+.body {
     width: 50%;
     height: 100%;
     margin: 10px;
 
 }
 
-.body2 {
-    width: 50%;
-    height: 100%;
-    margin: 10px;
 
-}
+
 
 .entete {
     font-family: Arial, Helvetica, sans-serif;
@@ -290,7 +286,6 @@ nav ul li a {
 
 .social2 {
     color: gray;
-
     margin-left: 1200px;
 
 }
@@ -330,15 +325,24 @@ nav ul li a {
         color: white;
     }
 
+    .all {
 
-    .body1 {
+        display: flex;
+        flex-direction: column;
 
-        width: auto;
     }
 
-    .body2 {
-        width: auto;
+    .footer {
+        bottom: -6800;
     }
 
+    .social2 {
+        margin-left: 440px;
+    }
+
+    .design {
+
+        margin-left: 0;
+    }
 
 }
