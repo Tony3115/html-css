@@ -400,7 +400,7 @@ nav ul li a {
     }
 
     .footer {
-        bottom: -6550;
+        bottom: -6550px;
         max-width: 100%;
         display: flex;
     }
