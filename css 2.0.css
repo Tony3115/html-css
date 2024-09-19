@@ -432,6 +432,44 @@ nav ul li a {
         width: 100%;
     }
 
+    .ligne {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .body {
+        width: 100%;
+    }
+
+    .img {
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .menu {
+
+        display: flex;
+        flex-direction: row;
+        width: 100%
+    }
+
+    .fcol {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+    }
+
+
     .footer {
         bottom: -6550px;
         max-width: 100%;
