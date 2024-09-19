@@ -341,16 +341,18 @@ nav ul li a {
     .all {
         display: flex;
         flex-direction: column;
+
     }
 
-
-
-
-    img {
-        max-width: 200%;
-        margin-left: -50%;
+    .ligne {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+        margin-bottom: 20px;
     }
-
 
     .menu {
 
