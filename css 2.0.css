@@ -469,20 +469,9 @@ nav ul li a {
         width: 95%;
     }
 
-
-    .footer {
-        bottom: -6550px;
-        max-width: 100%;
+    .fi {
         display: flex;
-    }
-
-
-    .social2 {
-        margin-left: 440px;
-    }
-
-    .design {
-
-        margin-left: 0;
+        justify-content: center;
+        width: 100%;
     }
 }
